@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             pnlTitulo = new Panel();
             lblTitulo = new Label();
             lblBuscar = new Label();
@@ -56,6 +57,8 @@
             btnCancelar = new FontAwesome.Sharp.IconButton();
             pnlBotones = new Panel();
             dgvLibros = new DataGridView();
+            notifyIcon1 = new NotifyIcon(components);
+            notifyIcon2 = new NotifyIcon(components);
             pnlTitulo.SuspendLayout();
             pnlBusqueda.SuspendLayout();
             pnlDatos.SuspendLayout();
@@ -376,11 +379,21 @@
             // dgvLibros
             // 
             dgvLibros.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvLibros.Location = new Point(147, 508);
+            dgvLibros.Location = new Point(154, 521);
             dgvLibros.Name = "dgvLibros";
-            dgvLibros.Size = new Size(1100, 269);
+            dgvLibros.Size = new Size(1100, 243);
             dgvLibros.TabIndex = 9;
             dgvLibros.CellContentDoubleClick += dgvLibros_CellContentDoubleClick;
+            // 
+            // notifyIcon1
+            // 
+            notifyIcon1.Text = "notifyIcon1";
+            notifyIcon1.Visible = true;
+            // 
+            // notifyIcon2
+            // 
+            notifyIcon2.Text = "notifyIcon2";
+            notifyIcon2.Visible = true;
             // 
             // FrmLibros
             // 
@@ -438,5 +451,7 @@
         private Panel pnlBotones;
         private DataGridView dgvLibros;
         private TextBox txtISBN;
+        private NotifyIcon notifyIcon1;
+        private NotifyIcon notifyIcon2;
     }
 }
