@@ -62,7 +62,7 @@
             pnlTitulo.Dock = DockStyle.Top;
             pnlTitulo.Location = new Point(0, 0);
             pnlTitulo.Name = "pnlTitulo";
-            pnlTitulo.Size = new Size(1350, 100);
+            pnlTitulo.Size = new Size(1350, 53);
             pnlTitulo.TabIndex = 0;
             // 
             // lblTitulo
@@ -70,7 +70,7 @@
             lblTitulo.AutoSize = true;
             lblTitulo.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTitulo.ForeColor = Color.White;
-            lblTitulo.Location = new Point(537, 43);
+            lblTitulo.Location = new Point(537, 9);
             lblTitulo.Name = "lblTitulo";
             lblTitulo.Size = new Size(241, 32);
             lblTitulo.TabIndex = 0;
@@ -89,15 +89,15 @@
             pnlDatos.Controls.Add(lblApellido);
             pnlDatos.Controls.Add(lblDocumento);
             pnlDatos.Dock = DockStyle.Top;
-            pnlDatos.Location = new Point(0, 100);
+            pnlDatos.Location = new Point(0, 53);
             pnlDatos.Margin = new Padding(0);
             pnlDatos.Name = "pnlDatos";
-            pnlDatos.Size = new Size(1350, 270);
+            pnlDatos.Size = new Size(1350, 311);
             pnlDatos.TabIndex = 7;
             // 
             // txtCorreo
             // 
-            txtCorreo.Location = new Point(621, 185);
+            txtCorreo.Location = new Point(632, 255);
             txtCorreo.Margin = new Padding(0);
             txtCorreo.Name = "txtCorreo";
             txtCorreo.Size = new Size(157, 23);
@@ -105,7 +105,7 @@
             // 
             // txtTelefono
             // 
-            txtTelefono.Location = new Point(621, 153);
+            txtTelefono.Location = new Point(632, 206);
             txtTelefono.Margin = new Padding(0);
             txtTelefono.Name = "txtTelefono";
             txtTelefono.Size = new Size(157, 23);
@@ -113,7 +113,7 @@
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(621, 42);
+            txtNombre.Location = new Point(632, 42);
             txtNombre.Margin = new Padding(0);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(157, 23);
@@ -122,28 +122,28 @@
             // lblCorreo
             // 
             lblCorreo.AutoSize = true;
-            lblCorreo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblCorreo.Location = new Point(492, 188);
+            lblCorreo.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblCorreo.Location = new Point(492, 258);
             lblCorreo.Margin = new Padding(0);
             lblCorreo.Name = "lblCorreo";
-            lblCorreo.Size = new Size(48, 15);
+            lblCorreo.Size = new Size(60, 20);
             lblCorreo.TabIndex = 21;
             lblCorreo.Text = "Correo:";
             // 
             // lblTelefono
             // 
             lblTelefono.AutoSize = true;
-            lblTelefono.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTelefono.Location = new Point(492, 153);
+            lblTelefono.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTelefono.Location = new Point(492, 209);
             lblTelefono.Margin = new Padding(0);
             lblTelefono.Name = "lblTelefono";
-            lblTelefono.Size = new Size(59, 15);
+            lblTelefono.Size = new Size(74, 20);
             lblTelefono.TabIndex = 20;
             lblTelefono.Text = "Telefono:";
             // 
             // txtDocumento
             // 
-            txtDocumento.Location = new Point(621, 117);
+            txtDocumento.Location = new Point(632, 149);
             txtDocumento.Margin = new Padding(0);
             txtDocumento.Name = "txtDocumento";
             txtDocumento.Size = new Size(157, 23);
@@ -152,17 +152,17 @@
             // lblNombre
             // 
             lblNombre.AutoSize = true;
-            lblNombre.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblNombre.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblNombre.Location = new Point(492, 45);
             lblNombre.Margin = new Padding(0);
             lblNombre.Name = "lblNombre";
-            lblNombre.Size = new Size(56, 15);
+            lblNombre.Size = new Size(71, 20);
             lblNombre.TabIndex = 18;
             lblNombre.Text = "Nombre:";
             // 
             // txtApellido
             // 
-            txtApellido.Location = new Point(621, 79);
+            txtApellido.Location = new Point(632, 94);
             txtApellido.Margin = new Padding(0);
             txtApellido.Name = "txtApellido";
             txtApellido.Size = new Size(157, 23);
@@ -171,22 +171,22 @@
             // lblApellido
             // 
             lblApellido.AutoSize = true;
-            lblApellido.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblApellido.Location = new Point(492, 82);
+            lblApellido.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblApellido.Location = new Point(492, 97);
             lblApellido.Margin = new Padding(0);
             lblApellido.Name = "lblApellido";
-            lblApellido.Size = new Size(55, 15);
+            lblApellido.Size = new Size(71, 20);
             lblApellido.TabIndex = 6;
             lblApellido.Text = "Apellido:";
             // 
             // lblDocumento
             // 
             lblDocumento.AutoSize = true;
-            lblDocumento.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblDocumento.Location = new Point(492, 117);
+            lblDocumento.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblDocumento.Location = new Point(492, 152);
             lblDocumento.Margin = new Padding(0);
             lblDocumento.Name = "lblDocumento";
-            lblDocumento.Size = new Size(76, 15);
+            lblDocumento.Size = new Size(95, 20);
             lblDocumento.TabIndex = 5;
             lblDocumento.Text = "Documento:";
             // 
@@ -205,13 +205,14 @@
             pnlBotones.Controls.Add(btnEditar);
             pnlBotones.Controls.Add(btnGuardar);
             pnlBotones.Controls.Add(btnNuevo);
-            pnlBotones.Location = new Point(219, 385);
+            pnlBotones.Location = new Point(207, 383);
             pnlBotones.Name = "pnlBotones";
             pnlBotones.Size = new Size(913, 47);
             pnlBotones.TabIndex = 8;
             // 
             // btnCancelar
             // 
+            btnCancelar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnCancelar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
             btnCancelar.IconColor = Color.Black;
             btnCancelar.IconFont = FontAwesome.Sharp.IconFont.Regular;
@@ -227,6 +228,7 @@
             // 
             // btnEliminar
             // 
+            btnEliminar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnEliminar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
             btnEliminar.IconColor = Color.Black;
             btnEliminar.IconFont = FontAwesome.Sharp.IconFont.Regular;
@@ -242,6 +244,7 @@
             // 
             // btnEditar
             // 
+            btnEditar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnEditar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
             btnEditar.IconColor = Color.Black;
             btnEditar.IconFont = FontAwesome.Sharp.IconFont.Regular;
@@ -257,6 +260,7 @@
             // 
             // btnGuardar
             // 
+            btnGuardar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnGuardar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
             btnGuardar.IconColor = Color.Black;
             btnGuardar.IconFont = FontAwesome.Sharp.IconFont.Regular;
@@ -272,6 +276,7 @@
             // 
             // btnNuevo
             // 
+            btnNuevo.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnNuevo.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
             btnNuevo.IconColor = Color.Black;
             btnNuevo.IconFont = FontAwesome.Sharp.IconFont.Regular;
@@ -289,9 +294,9 @@
             // 
             dgvUsuarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvUsuarios.Dock = DockStyle.Bottom;
-            dgvUsuarios.Location = new Point(0, 469);
+            dgvUsuarios.Location = new Point(0, 455);
             dgvUsuarios.Name = "dgvUsuarios";
-            dgvUsuarios.Size = new Size(1350, 348);
+            dgvUsuarios.Size = new Size(1350, 362);
             dgvUsuarios.TabIndex = 10;
             dgvUsuarios.CellContentDoubleClick += dgvUsuarios_CellContentDoubleClick;
             // 

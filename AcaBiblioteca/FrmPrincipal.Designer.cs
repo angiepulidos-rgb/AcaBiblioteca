@@ -76,7 +76,7 @@
             // 
             // pnlMenu
             // 
-            pnlMenu.BackColor = Color.SteelBlue;
+            pnlMenu.BackColor = Color.RoyalBlue;
             pnlMenu.Controls.Add(btnSalir);
             pnlMenu.Controls.Add(btnReportes);
             pnlMenu.Controls.Add(btnPrestamos);
@@ -89,7 +89,7 @@
             pnlMenu.Dock = DockStyle.Left;
             pnlMenu.Location = new Point(0, 0);
             pnlMenu.Name = "pnlMenu";
-            pnlMenu.Size = new Size(303, 817);
+            pnlMenu.Size = new Size(303, 555);
             pnlMenu.TabIndex = 0;
             // 
             // btnReportes
@@ -266,11 +266,11 @@
             // 
             lblSubtitulo.AutoSize = true;
             lblSubtitulo.BackColor = Color.Transparent;
-            lblSubtitulo.Font = new Font("Corbel", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblSubtitulo.Font = new Font("Eras Bold ITC", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblSubtitulo.ForeColor = Color.WhiteSmoke;
-            lblSubtitulo.Location = new Point(172, 42);
+            lblSubtitulo.Location = new Point(155, 37);
             lblSubtitulo.Name = "lblSubtitulo";
-            lblSubtitulo.Size = new Size(108, 14);
+            lblSubtitulo.Size = new Size(133, 16);
             lblSubtitulo.TabIndex = 1;
             lblSubtitulo.Text = "Sistema De Gestiòn";
             // 
@@ -278,38 +278,38 @@
             // 
             lblTitulo.AutoSize = true;
             lblTitulo.BackColor = Color.Transparent;
-            lblTitulo.Font = new Font("Corbel", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTitulo.Font = new Font("Eras Bold ITC", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTitulo.ForeColor = SystemColors.HighlightText;
             lblTitulo.Location = new Point(144, 9);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(161, 33);
+            lblTitulo.Size = new Size(164, 28);
             lblTitulo.TabIndex = 0;
             lblTitulo.Text = "BIBLIOTECA";
             // 
             // pnlSuperior
             // 
-            pnlSuperior.BackColor = SystemColors.ActiveBorder;
+            pnlSuperior.BackColor = Color.RoyalBlue;
             pnlSuperior.Dock = DockStyle.Top;
             pnlSuperior.Location = new Point(303, 0);
             pnlSuperior.Name = "pnlSuperior";
-            pnlSuperior.Size = new Size(1047, 80);
+            pnlSuperior.Size = new Size(781, 53);
             pnlSuperior.TabIndex = 1;
             // 
             // pnlEstado
             // 
-            pnlEstado.BackColor = SystemColors.ControlLight;
+            pnlEstado.BackColor = Color.RoyalBlue;
             pnlEstado.Dock = DockStyle.Bottom;
-            pnlEstado.Location = new Point(303, 777);
+            pnlEstado.Location = new Point(303, 515);
             pnlEstado.Name = "pnlEstado";
-            pnlEstado.Size = new Size(1047, 40);
+            pnlEstado.Size = new Size(781, 40);
             pnlEstado.TabIndex = 2;
             // 
             // pnlContenido
             // 
             pnlContenido.Dock = DockStyle.Fill;
-            pnlContenido.Location = new Point(303, 80);
+            pnlContenido.Location = new Point(303, 53);
             pnlContenido.Name = "pnlContenido";
-            pnlContenido.Size = new Size(1047, 697);
+            pnlContenido.Size = new Size(781, 462);
             pnlContenido.TabIndex = 3;
             // 
             // iconSplitButton1
@@ -340,7 +340,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1350, 817);
+            ClientSize = new Size(1084, 555);
             Controls.Add(pnlContenido);
             Controls.Add(pnlEstado);
             Controls.Add(pnlSuperior);

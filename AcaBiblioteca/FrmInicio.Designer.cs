@@ -28,12 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FrmInicio";
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmInicio));
+            pnlSuperior = new Panel();
+            picInicio = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)picInicio).BeginInit();
+            SuspendLayout();
+            // 
+            // pnlSuperior
+            // 
+            pnlSuperior.BackColor = Color.RoyalBlue;
+            pnlSuperior.Dock = DockStyle.Top;
+            pnlSuperior.Location = new Point(0, 0);
+            pnlSuperior.Name = "pnlSuperior";
+            pnlSuperior.Size = new Size(1084, 53);
+            pnlSuperior.TabIndex = 2;
+            // 
+            // picInicio
+            // 
+            picInicio.Dock = DockStyle.Fill;
+            picInicio.Image = (Image)resources.GetObject("picInicio.Image");
+            picInicio.Location = new Point(0, 53);
+            picInicio.Name = "picInicio";
+            picInicio.Size = new Size(1084, 502);
+            picInicio.SizeMode = PictureBoxSizeMode.StretchImage;
+            picInicio.TabIndex = 3;
+            picInicio.TabStop = false;
+            // 
+            // FrmInicio
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1084, 555);
+            Controls.Add(picInicio);
+            Controls.Add(pnlSuperior);
+            Name = "FrmInicio";
+            Text = "FrmInicio";
+            ((System.ComponentModel.ISupportInitialize)picInicio).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Panel pnlSuperior;
+        private PictureBox picInicio;
     }
 }

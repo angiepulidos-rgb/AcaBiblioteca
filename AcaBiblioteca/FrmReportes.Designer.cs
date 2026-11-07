@@ -51,14 +51,14 @@
             pnlTitulo.ForeColor = Color.Transparent;
             pnlTitulo.Location = new Point(0, 0);
             pnlTitulo.Name = "pnlTitulo";
-            pnlTitulo.Size = new Size(1350, 100);
+            pnlTitulo.Size = new Size(1350, 53);
             pnlTitulo.TabIndex = 1;
             // 
             // lblTitulo
             // 
             lblTitulo.AutoSize = true;
             lblTitulo.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTitulo.Location = new Point(538, 39);
+            lblTitulo.Location = new Point(540, 9);
             lblTitulo.Name = "lblTitulo";
             lblTitulo.Size = new Size(279, 32);
             lblTitulo.TabIndex = 0;
@@ -72,18 +72,19 @@
             pnlOpciones.Controls.Add(cmbTipoReporte);
             pnlOpciones.Controls.Add(lblTipoReporte);
             pnlOpciones.Dock = DockStyle.Top;
-            pnlOpciones.Location = new Point(0, 100);
+            pnlOpciones.Location = new Point(0, 53);
             pnlOpciones.Name = "pnlOpciones";
             pnlOpciones.Size = new Size(1350, 299);
             pnlOpciones.TabIndex = 2;
             // 
             // btnLimpiar
             // 
+            btnLimpiar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnLimpiar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
             btnLimpiar.IconColor = Color.Black;
             btnLimpiar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnLimpiar.IconSize = 20;
-            btnLimpiar.Location = new Point(803, 159);
+            btnLimpiar.Location = new Point(745, 159);
             btnLimpiar.Name = "btnLimpiar";
             btnLimpiar.Size = new Size(149, 40);
             btnLimpiar.TabIndex = 16;
@@ -94,13 +95,14 @@
             // 
             // btnGenerar
             // 
+            btnGenerar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnGenerar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
             btnGenerar.IconColor = Color.Black;
             btnGenerar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnGenerar.IconSize = 20;
-            btnGenerar.Location = new Point(492, 159);
+            btnGenerar.Location = new Point(478, 159);
             btnGenerar.Name = "btnGenerar";
-            btnGenerar.Size = new Size(142, 40);
+            btnGenerar.Size = new Size(153, 40);
             btnGenerar.TabIndex = 15;
             btnGenerar.Text = "Generar Reporte";
             btnGenerar.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -112,7 +114,7 @@
             cmbTipoReporte.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbTipoReporte.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cmbTipoReporte.FormattingEnabled = true;
-            cmbTipoReporte.Location = new Point(707, 59);
+            cmbTipoReporte.Location = new Point(649, 54);
             cmbTipoReporte.Name = "cmbTipoReporte";
             cmbTipoReporte.Size = new Size(245, 28);
             cmbTipoReporte.TabIndex = 1;
@@ -120,21 +122,21 @@
             // lblTipoReporte
             // 
             lblTipoReporte.AutoSize = true;
-            lblTipoReporte.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblTipoReporte.Location = new Point(492, 66);
+            lblTipoReporte.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTipoReporte.Location = new Point(429, 62);
             lblTipoReporte.Name = "lblTipoReporte";
-            lblTipoReporte.Size = new Size(133, 21);
+            lblTipoReporte.Size = new Size(127, 20);
             lblTipoReporte.TabIndex = 0;
-            lblTipoReporte.Text = "Tipo De Reporte";
+            lblTipoReporte.Text = "Tipo De Reporte:";
             // 
             // pnlDgv
             // 
             pnlDgv.BackColor = Color.White;
             pnlDgv.Controls.Add(dgvReportes);
             pnlDgv.Dock = DockStyle.Fill;
-            pnlDgv.Location = new Point(0, 399);
+            pnlDgv.Location = new Point(0, 352);
             pnlDgv.Name = "pnlDgv";
-            pnlDgv.Size = new Size(1350, 418);
+            pnlDgv.Size = new Size(1350, 465);
             pnlDgv.TabIndex = 3;
             // 
             // dgvReportes
@@ -148,7 +150,7 @@
             dgvReportes.Name = "dgvReportes";
             dgvReportes.ReadOnly = true;
             dgvReportes.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvReportes.Size = new Size(1350, 418);
+            dgvReportes.Size = new Size(1350, 465);
             dgvReportes.TabIndex = 0;
             // 
             // FrmReportes

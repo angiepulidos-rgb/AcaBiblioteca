@@ -53,7 +53,7 @@
             pnlTitulo.Dock = DockStyle.Top;
             pnlTitulo.Location = new Point(0, 0);
             pnlTitulo.Name = "pnlTitulo";
-            pnlTitulo.Size = new Size(1350, 82);
+            pnlTitulo.Size = new Size(1350, 53);
             pnlTitulo.TabIndex = 0;
             // 
             // lblTitulo
@@ -62,11 +62,11 @@
             lblTitulo.BackColor = Color.Transparent;
             lblTitulo.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTitulo.ForeColor = Color.White;
-            lblTitulo.Location = new Point(470, 23);
+            lblTitulo.Location = new Point(470, 9);
             lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(311, 32);
+            lblTitulo.Size = new Size(310, 32);
             lblTitulo.TabIndex = 0;
-            lblTitulo.Text = "DESTIÒN DE EDITORIALES";
+            lblTitulo.Text = "GESTIÒN DE EDITORIALES";
             // 
             // pnlBotones
             // 
@@ -75,13 +75,14 @@
             pnlBotones.Controls.Add(btnCancelar);
             pnlBotones.Controls.Add(btnGuardar);
             pnlBotones.Controls.Add(btnNuevo);
-            pnlBotones.Location = new Point(276, 403);
+            pnlBotones.Location = new Point(266, 327);
             pnlBotones.Name = "pnlBotones";
             pnlBotones.Size = new Size(857, 55);
             pnlBotones.TabIndex = 3;
             // 
             // btnEliminar
             // 
+            btnEliminar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnEliminar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
             btnEliminar.IconColor = Color.Black;
             btnEliminar.IconFont = FontAwesome.Sharp.IconFont.Regular;
@@ -97,6 +98,7 @@
             // 
             // btnEditar
             // 
+            btnEditar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnEditar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
             btnEditar.IconColor = Color.Black;
             btnEditar.IconFont = FontAwesome.Sharp.IconFont.Regular;
@@ -112,6 +114,7 @@
             // 
             // btnCancelar
             // 
+            btnCancelar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnCancelar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
             btnCancelar.IconColor = Color.Black;
             btnCancelar.IconFont = FontAwesome.Sharp.IconFont.Regular;
@@ -127,6 +130,7 @@
             // 
             // btnGuardar
             // 
+            btnGuardar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnGuardar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
             btnGuardar.IconColor = Color.Black;
             btnGuardar.IconFont = FontAwesome.Sharp.IconFont.Regular;
@@ -142,6 +146,7 @@
             // 
             // btnNuevo
             // 
+            btnNuevo.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnNuevo.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
             btnNuevo.IconColor = Color.Black;
             btnNuevo.IconFont = FontAwesome.Sharp.IconFont.Regular;
@@ -160,14 +165,14 @@
             pnlBusqueda.BackColor = Color.WhiteSmoke;
             pnlBusqueda.Controls.Add(txtNombre);
             pnlBusqueda.Controls.Add(lblNombre);
-            pnlBusqueda.Location = new Point(0, 88);
+            pnlBusqueda.Location = new Point(0, 59);
             pnlBusqueda.Name = "pnlBusqueda";
-            pnlBusqueda.Size = new Size(1350, 292);
+            pnlBusqueda.Size = new Size(1350, 241);
             pnlBusqueda.TabIndex = 5;
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(574, 86);
+            txtNombre.Location = new Point(621, 83);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(178, 23);
             txtNombre.TabIndex = 1;
@@ -175,19 +180,19 @@
             // lblNombre
             // 
             lblNombre.AutoSize = true;
-            lblNombre.Font = new Font("Segoe UI Black", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblNombre.Font = new Font("Segoe UI Emoji", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblNombre.Location = new Point(490, 86);
             lblNombre.Name = "lblNombre";
-            lblNombre.Size = new Size(64, 17);
+            lblNombre.Size = new Size(74, 20);
             lblNombre.TabIndex = 0;
             lblNombre.Text = "Nombre:";
             // 
             // dgvEditoriales
             // 
             dgvEditoriales.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvEditoriales.Location = new Point(0, 487);
+            dgvEditoriales.Location = new Point(0, 431);
             dgvEditoriales.Name = "dgvEditoriales";
-            dgvEditoriales.Size = new Size(1350, 293);
+            dgvEditoriales.Size = new Size(1350, 337);
             dgvEditoriales.TabIndex = 6;
             dgvEditoriales.CellContentDoubleClick += dgvEditoriales_CellContentDoubleClick;
             // 
