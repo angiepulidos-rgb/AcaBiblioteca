@@ -101,7 +101,7 @@
             btnEliminar.IconColor = Color.Black;
             btnEliminar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnEliminar.IconSize = 20;
-            btnEliminar.Location = new Point(743, 305);
+            btnEliminar.Location = new Point(744, 305);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(149, 40);
             btnEliminar.TabIndex = 14;
@@ -172,9 +172,11 @@
             // 
             // dtpFechaDevolucion
             // 
+            dtpFechaDevolucion.Checked = false;
             dtpFechaDevolucion.Format = DateTimePickerFormat.Short;
             dtpFechaDevolucion.Location = new Point(561, 208);
             dtpFechaDevolucion.Name = "dtpFechaDevolucion";
+            dtpFechaDevolucion.ShowCheckBox = true;
             dtpFechaDevolucion.Size = new Size(200, 23);
             dtpFechaDevolucion.TabIndex = 7;
             // 
