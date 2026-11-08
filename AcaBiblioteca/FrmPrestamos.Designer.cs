@@ -75,7 +75,7 @@
             // 
             // pnlDatos
             // 
-            pnlDatos.BackColor = Color.Gainsboro;
+            pnlDatos.BackColor = Color.Linen;
             pnlDatos.Controls.Add(btnEliminar);
             pnlDatos.Controls.Add(btnEditar);
             pnlDatos.Controls.Add(btnCancelar);
@@ -98,7 +98,7 @@
             // btnEliminar
             // 
             btnEliminar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnEliminar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnEliminar.IconChar = FontAwesome.Sharp.IconChar.TrashAlt;
             btnEliminar.IconColor = Color.Black;
             btnEliminar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnEliminar.IconSize = 20;
@@ -114,7 +114,7 @@
             // btnEditar
             // 
             btnEditar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnEditar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnEditar.IconChar = FontAwesome.Sharp.IconChar.Edit;
             btnEditar.IconColor = Color.Black;
             btnEditar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnEditar.IconSize = 20;
@@ -130,7 +130,7 @@
             // btnCancelar
             // 
             btnCancelar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCancelar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnCancelar.IconChar = FontAwesome.Sharp.IconChar.Cancel;
             btnCancelar.IconColor = Color.Black;
             btnCancelar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnCancelar.IconSize = 20;
@@ -146,7 +146,7 @@
             // btnGuardar
             // 
             btnGuardar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnGuardar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnGuardar.IconChar = FontAwesome.Sharp.IconChar.Save;
             btnGuardar.IconColor = Color.Black;
             btnGuardar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnGuardar.IconSize = 20;
@@ -162,7 +162,7 @@
             // btnNuevo
             // 
             btnNuevo.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnNuevo.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnNuevo.IconChar = FontAwesome.Sharp.IconChar.Star;
             btnNuevo.IconColor = Color.Black;
             btnNuevo.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnNuevo.IconSize = 20;
@@ -178,19 +178,21 @@
             // dtpFechaDevolucion
             // 
             dtpFechaDevolucion.Checked = false;
+            dtpFechaDevolucion.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dtpFechaDevolucion.Format = DateTimePickerFormat.Short;
             dtpFechaDevolucion.Location = new Point(619, 213);
             dtpFechaDevolucion.Name = "dtpFechaDevolucion";
             dtpFechaDevolucion.ShowCheckBox = true;
-            dtpFechaDevolucion.Size = new Size(200, 23);
+            dtpFechaDevolucion.Size = new Size(200, 25);
             dtpFechaDevolucion.TabIndex = 7;
             // 
             // dtpFechaPrestamo
             // 
+            dtpFechaPrestamo.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             dtpFechaPrestamo.Format = DateTimePickerFormat.Short;
             dtpFechaPrestamo.Location = new Point(619, 158);
             dtpFechaPrestamo.Name = "dtpFechaPrestamo";
-            dtpFechaPrestamo.Size = new Size(200, 23);
+            dtpFechaPrestamo.Size = new Size(200, 25);
             dtpFechaPrestamo.TabIndex = 6;
             // 
             // lblFechaDvolucion
@@ -215,10 +217,11 @@
             // 
             // cmbLibro
             // 
+            cmbLibro.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cmbLibro.FormattingEnabled = true;
             cmbLibro.Location = new Point(619, 96);
             cmbLibro.Name = "cmbLibro";
-            cmbLibro.Size = new Size(200, 23);
+            cmbLibro.Size = new Size(200, 25);
             cmbLibro.TabIndex = 3;
             // 
             // lblLibro
@@ -233,10 +236,11 @@
             // 
             // cmbUsuario
             // 
+            cmbUsuario.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             cmbUsuario.FormattingEnabled = true;
             cmbUsuario.Location = new Point(619, 36);
             cmbUsuario.Name = "cmbUsuario";
-            cmbUsuario.Size = new Size(200, 23);
+            cmbUsuario.Size = new Size(200, 25);
             cmbUsuario.TabIndex = 1;
             // 
             // lblUsuario
@@ -251,6 +255,7 @@
             // 
             // pnlLista
             // 
+            pnlLista.BackColor = Color.Linen;
             pnlLista.Controls.Add(dgvPrestamos);
             pnlLista.Dock = DockStyle.Fill;
             pnlLista.Location = new Point(0, 413);
@@ -262,14 +267,14 @@
             // 
             dgvPrestamos.AllowUserToAddRows = false;
             dgvPrestamos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvPrestamos.BackgroundColor = Color.Linen;
             dgvPrestamos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvPrestamos.Dock = DockStyle.Fill;
-            dgvPrestamos.Location = new Point(0, 0);
+            dgvPrestamos.Location = new Point(147, 6);
             dgvPrestamos.MultiSelect = false;
             dgvPrestamos.Name = "dgvPrestamos";
             dgvPrestamos.ReadOnly = true;
             dgvPrestamos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvPrestamos.Size = new Size(1350, 404);
+            dgvPrestamos.Size = new Size(1016, 355);
             dgvPrestamos.TabIndex = 0;
             dgvPrestamos.CellDoubleClick += dgvPrestamos_CellDoubleClick;
             // 

@@ -40,7 +40,7 @@
             pnlSuperior.Dock = DockStyle.Top;
             pnlSuperior.Location = new Point(0, 0);
             pnlSuperior.Name = "pnlSuperior";
-            pnlSuperior.Size = new Size(1084, 53);
+            pnlSuperior.Size = new Size(1364, 53);
             pnlSuperior.TabIndex = 2;
             // 
             // picInicio
@@ -49,7 +49,7 @@
             picInicio.Image = (Image)resources.GetObject("picInicio.Image");
             picInicio.Location = new Point(0, 53);
             picInicio.Name = "picInicio";
-            picInicio.Size = new Size(1084, 502);
+            picInicio.Size = new Size(1364, 798);
             picInicio.SizeMode = PictureBoxSizeMode.StretchImage;
             picInicio.TabIndex = 3;
             picInicio.TabStop = false;
@@ -58,7 +58,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1084, 555);
+            ClientSize = new Size(1364, 851);
             Controls.Add(picInicio);
             Controls.Add(pnlSuperior);
             Name = "FrmInicio";

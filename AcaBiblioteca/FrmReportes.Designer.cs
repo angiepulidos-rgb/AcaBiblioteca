@@ -66,7 +66,7 @@
             // 
             // pnlOpciones
             // 
-            pnlOpciones.BackColor = Color.WhiteSmoke;
+            pnlOpciones.BackColor = Color.Linen;
             pnlOpciones.Controls.Add(btnLimpiar);
             pnlOpciones.Controls.Add(btnGenerar);
             pnlOpciones.Controls.Add(cmbTipoReporte);
@@ -80,7 +80,7 @@
             // btnLimpiar
             // 
             btnLimpiar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnLimpiar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnLimpiar.IconChar = FontAwesome.Sharp.IconChar.TrashAlt;
             btnLimpiar.IconColor = Color.Black;
             btnLimpiar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnLimpiar.IconSize = 20;
@@ -131,7 +131,7 @@
             // 
             // pnlDgv
             // 
-            pnlDgv.BackColor = Color.White;
+            pnlDgv.BackColor = Color.Linen;
             pnlDgv.Controls.Add(dgvReportes);
             pnlDgv.Dock = DockStyle.Fill;
             pnlDgv.Location = new Point(0, 352);
@@ -143,14 +143,14 @@
             // 
             dgvReportes.AllowUserToAddRows = false;
             dgvReportes.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvReportes.BackgroundColor = Color.Linen;
             dgvReportes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvReportes.Dock = DockStyle.Fill;
-            dgvReportes.Location = new Point(0, 0);
+            dgvReportes.Location = new Point(156, 0);
             dgvReportes.MultiSelect = false;
             dgvReportes.Name = "dgvReportes";
             dgvReportes.ReadOnly = true;
             dgvReportes.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvReportes.Size = new Size(1350, 465);
+            dgvReportes.Size = new Size(1017, 427);
             dgvReportes.TabIndex = 0;
             // 
             // FrmReportes

@@ -71,6 +71,7 @@
             // 
             // pnlDatos
             // 
+            pnlDatos.BackColor = Color.Linen;
             pnlDatos.Controls.Add(txtNombre);
             pnlDatos.Controls.Add(lblNombre);
             pnlDatos.Controls.Add(txtApellido);
@@ -84,10 +85,11 @@
             // 
             // txtNombre
             // 
+            txtNombre.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtNombre.Location = new Point(655, 61);
             txtNombre.Margin = new Padding(0);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(157, 23);
+            txtNombre.Size = new Size(181, 25);
             txtNombre.TabIndex = 22;
             // 
             // lblNombre
@@ -103,10 +105,11 @@
             // 
             // txtApellido
             // 
+            txtApellido.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtApellido.Location = new Point(655, 118);
             txtApellido.Margin = new Padding(0);
             txtApellido.Name = "txtApellido";
-            txtApellido.Size = new Size(157, 23);
+            txtApellido.Size = new Size(181, 25);
             txtApellido.TabIndex = 17;
             // 
             // lblApellido
@@ -135,7 +138,7 @@
             // btnCancelar
             // 
             btnCancelar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCancelar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnCancelar.IconChar = FontAwesome.Sharp.IconChar.Cancel;
             btnCancelar.IconColor = Color.Black;
             btnCancelar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnCancelar.IconSize = 20;
@@ -151,7 +154,7 @@
             // btnEliminar
             // 
             btnEliminar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnEliminar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnEliminar.IconChar = FontAwesome.Sharp.IconChar.TrashAlt;
             btnEliminar.IconColor = Color.Black;
             btnEliminar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnEliminar.IconSize = 20;
@@ -167,7 +170,7 @@
             // btnEditar
             // 
             btnEditar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnEditar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnEditar.IconChar = FontAwesome.Sharp.IconChar.Edit;
             btnEditar.IconColor = Color.Black;
             btnEditar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnEditar.IconSize = 20;
@@ -183,7 +186,7 @@
             // btnGuardar
             // 
             btnGuardar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnGuardar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnGuardar.IconChar = FontAwesome.Sharp.IconChar.Save;
             btnGuardar.IconColor = Color.Black;
             btnGuardar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnGuardar.IconSize = 20;
@@ -199,7 +202,7 @@
             // btnNuevo
             // 
             btnNuevo.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnNuevo.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnNuevo.IconChar = FontAwesome.Sharp.IconChar.Star;
             btnNuevo.IconColor = Color.Black;
             btnNuevo.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnNuevo.IconSize = 20;
@@ -214,11 +217,12 @@
             // 
             // dgvAutores
             // 
+            dgvAutores.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvAutores.BackgroundColor = Color.Linen;
             dgvAutores.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvAutores.Dock = DockStyle.Bottom;
-            dgvAutores.Location = new Point(0, 412);
+            dgvAutores.Location = new Point(143, 412);
             dgvAutores.Name = "dgvAutores";
-            dgvAutores.Size = new Size(1350, 405);
+            dgvAutores.Size = new Size(1061, 372);
             dgvAutores.TabIndex = 11;
             dgvAutores.CellContentDoubleClick += dgvAutores_CellContentDoubleClick;
             // 
@@ -226,6 +230,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Linen;
             ClientSize = new Size(1350, 817);
             Controls.Add(dgvAutores);
             Controls.Add(pnlBotones);

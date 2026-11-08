@@ -83,7 +83,7 @@
             // btnEliminar
             // 
             btnEliminar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnEliminar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnEliminar.IconChar = FontAwesome.Sharp.IconChar.TrashAlt;
             btnEliminar.IconColor = Color.Black;
             btnEliminar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnEliminar.IconSize = 20;
@@ -99,7 +99,7 @@
             // btnEditar
             // 
             btnEditar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnEditar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnEditar.IconChar = FontAwesome.Sharp.IconChar.Edit;
             btnEditar.IconColor = Color.Black;
             btnEditar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnEditar.IconSize = 20;
@@ -115,7 +115,7 @@
             // btnCancelar
             // 
             btnCancelar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnCancelar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnCancelar.IconChar = FontAwesome.Sharp.IconChar.Cancel;
             btnCancelar.IconColor = Color.Black;
             btnCancelar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnCancelar.IconSize = 20;
@@ -131,7 +131,7 @@
             // btnGuardar
             // 
             btnGuardar.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnGuardar.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnGuardar.IconChar = FontAwesome.Sharp.IconChar.Save;
             btnGuardar.IconColor = Color.Black;
             btnGuardar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnGuardar.IconSize = 20;
@@ -147,7 +147,7 @@
             // btnNuevo
             // 
             btnNuevo.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnNuevo.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            btnNuevo.IconChar = FontAwesome.Sharp.IconChar.Star;
             btnNuevo.IconColor = Color.Black;
             btnNuevo.IconFont = FontAwesome.Sharp.IconFont.Regular;
             btnNuevo.IconSize = 20;
@@ -162,7 +162,7 @@
             // 
             // pnlBusqueda
             // 
-            pnlBusqueda.BackColor = Color.WhiteSmoke;
+            pnlBusqueda.BackColor = Color.Linen;
             pnlBusqueda.Controls.Add(txtNombre);
             pnlBusqueda.Controls.Add(lblNombre);
             pnlBusqueda.Location = new Point(0, 59);
@@ -172,9 +172,10 @@
             // 
             // txtNombre
             // 
+            txtNombre.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtNombre.Location = new Point(621, 83);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(178, 23);
+            txtNombre.Size = new Size(199, 25);
             txtNombre.TabIndex = 1;
             // 
             // lblNombre
@@ -189,10 +190,12 @@
             // 
             // dgvEditoriales
             // 
+            dgvEditoriales.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvEditoriales.BackgroundColor = Color.Linen;
             dgvEditoriales.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvEditoriales.Location = new Point(0, 431);
+            dgvEditoriales.Location = new Point(199, 388);
             dgvEditoriales.Name = "dgvEditoriales";
-            dgvEditoriales.Size = new Size(1350, 337);
+            dgvEditoriales.Size = new Size(1005, 380);
             dgvEditoriales.TabIndex = 6;
             dgvEditoriales.CellContentDoubleClick += dgvEditoriales_CellContentDoubleClick;
             // 
@@ -200,6 +203,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Linen;
             ClientSize = new Size(1350, 817);
             Controls.Add(dgvEditoriales);
             Controls.Add(pnlBusqueda);

@@ -89,7 +89,7 @@
             pnlMenu.Dock = DockStyle.Left;
             pnlMenu.Location = new Point(0, 0);
             pnlMenu.Name = "pnlMenu";
-            pnlMenu.Size = new Size(303, 555);
+            pnlMenu.Size = new Size(303, 851);
             pnlMenu.TabIndex = 0;
             // 
             // btnReportes
@@ -140,7 +140,7 @@
             btnEditoriales.BackColor = Color.White;
             btnEditoriales.Dock = DockStyle.Top;
             btnEditoriales.Font = new Font("Segoe UI Black", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEditoriales.IconChar = FontAwesome.Sharp.IconChar.Edit;
+            btnEditoriales.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
             btnEditoriales.IconColor = Color.Black;
             btnEditoriales.IconFont = FontAwesome.Sharp.IconFont.Auto;
             btnEditoriales.IconSize = 25;
@@ -292,24 +292,25 @@
             pnlSuperior.Dock = DockStyle.Top;
             pnlSuperior.Location = new Point(303, 0);
             pnlSuperior.Name = "pnlSuperior";
-            pnlSuperior.Size = new Size(781, 53);
+            pnlSuperior.Size = new Size(1061, 53);
             pnlSuperior.TabIndex = 1;
             // 
             // pnlEstado
             // 
             pnlEstado.BackColor = Color.RoyalBlue;
             pnlEstado.Dock = DockStyle.Bottom;
-            pnlEstado.Location = new Point(303, 515);
+            pnlEstado.Location = new Point(303, 811);
             pnlEstado.Name = "pnlEstado";
-            pnlEstado.Size = new Size(781, 40);
+            pnlEstado.Size = new Size(1061, 40);
             pnlEstado.TabIndex = 2;
             // 
             // pnlContenido
             // 
+            pnlContenido.BackColor = Color.Linen;
             pnlContenido.Dock = DockStyle.Fill;
             pnlContenido.Location = new Point(303, 53);
             pnlContenido.Name = "pnlContenido";
-            pnlContenido.Size = new Size(781, 462);
+            pnlContenido.Size = new Size(1061, 758);
             pnlContenido.TabIndex = 3;
             // 
             // iconSplitButton1
@@ -340,7 +341,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1084, 555);
+            ClientSize = new Size(1364, 851);
             Controls.Add(pnlContenido);
             Controls.Add(pnlEstado);
             Controls.Add(pnlSuperior);
