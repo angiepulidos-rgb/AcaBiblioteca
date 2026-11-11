@@ -914,20 +914,20 @@ Microsoft. (s. f.). *Descripción general de Windows Forms*. Microsoft Learn. ht
 
 ## Anexo A. Repositorio GitHub
 
-**Repositorio:** \[Enlace al repositorio\]
+**Repositorio:** Enlace al repositorio(https://github.com/angiepulidos-rgb/AcaBiblioteca)
+
 
 ## Anexo B. Script de base de datos
 
-**Archivo:** `[Nombre del archivo .sql]`
+**Archivo:** `[BaseDatos_AcaBiblioteca.sql]`
 
 ## Anexo C. Evidencia de Git y GitHub
 
 Insertar capturas que evidencien:
 
--   Creación del repositorio.
--   Commits realizados.
--   Organización del proyecto.
--   Publicación del código.
--   README.md.
+-   Commits realizados. ![alt text](Anexo_C_Captura_2_Historial_Commits.png)
+-   Organización del proyecto.![alt text](Anexo_C_Captura_3_Organizacion_Proyecto.png)
+-   Publicación del código.![alt text](Anexo_C_Captura_4_Codigo_y_BaseDatos.png)
+
 
 ------------------------------------------------------------------------
