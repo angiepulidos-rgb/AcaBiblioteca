@@ -1,5 +1,29 @@
-﻿################################################################################
-# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+﻿
+################################################################################
+# Archivos ignorados para el proyecto AcaBiblioteca
 ################################################################################
 
-/AcaBiblioteca/FrmLibros.cs
+# Archivos de compilación
+bin/
+obj/
+
+# Archivos temporales de Visual Studio
+.vs/ 
+*.suo 
+*.user 
+*.userosscache 
+*.sln.docstates 
+
+# Archivos temporales y de respaldo
+*.tmp 
+*.log 
+*.cache 
+
+# Paquetes locales de NuGet 
+packages/ 
+*.nupkg 
+
+# Archivos del sistema operativo 
+.DS_Store 
+Thumbs.db 
+desktop.ini 
